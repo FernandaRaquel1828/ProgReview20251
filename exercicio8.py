@@ -1,2 +1,5 @@
-n = int(input('digite um numero em metros: '))
-print(f"{n}m equivale a {n*1000}cm")
+print("=" * 40)
+print(f"{'Bem-vindo ao seu conversor de medidas\nkm\nhm\ndam\nm\ndc\ncm\nmm':^40}")
+print("=" * 40)
+n = float(input("digite um numero em metros: "))
+print(f"{n}m equivale a {n*100:.0f}cm e {n*1000:.0f}mm")
